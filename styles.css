@@ -1079,7 +1079,10 @@ body::before {
   }
 
   .photo-back-copy {
-    gap: 0.04rem;
+    display: block;
+    flex: 1 1 auto;
+    column-count: 2;
+    column-gap: 0.85rem;
     overflow: auto;
     padding-right: 0.15rem;
     -webkit-overflow-scrolling: touch;
@@ -1091,8 +1094,12 @@ body::before {
   }
 
   .photo-back-copy p {
-    font-size: 0.66rem;
-    line-height: 1.1;
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 0.3rem;
+    break-inside: avoid;
+    font-size: 0.76rem;
+    line-height: 1.14;
   }
 
   .memory-print::after {
