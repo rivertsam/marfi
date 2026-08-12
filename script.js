@@ -1,6 +1,3 @@
-const darkModeButton = document.querySelector("[data-toggle]");
-const finalLineButton = document.querySelector("[data-message]");
-const finalLine = document.querySelector(".final-line");
 const revealNodes = document.querySelectorAll(".reveal");
 const introSequence = document.querySelector("[data-intro]");
 const memoryPrints = document.querySelectorAll("[data-memory-print]");
@@ -181,15 +178,3 @@ const observer = new IntersectionObserver(
 );
 
 revealNodes.forEach((node) => observer.observe(node));
-
-darkModeButton?.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-  darkModeButton.textContent = document.body.classList.contains("dark")
-    ? "Turn off night mode"
-    : "Turn on night mode";
-});
-
-finalLineButton?.addEventListener("click", () => {
-  finalLine.hidden = false;
-  finalLineButton.hidden = true;
-});
