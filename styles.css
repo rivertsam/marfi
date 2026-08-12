@@ -356,8 +356,8 @@ body::before {
   margin: 0;
   color: var(--ink);
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(1.02rem, 1.28vw, 1.2rem);
-  line-height: 1.18;
+  font-size: clamp(1.28rem, 1.9vw, 1.68rem);
+  line-height: 1.1;
   letter-spacing: 0.01em;
 }
 
@@ -514,8 +514,8 @@ body::before {
   }
 
   .photo-back-copy p {
-    font-size: clamp(0.9rem, 2.9vw, 1.02rem);
-    line-height: 1.16;
+    font-size: clamp(1.12rem, 3.9vw, 1.28rem);
+    line-height: 1.1;
   }
 
   .intro-kicker {
@@ -630,8 +630,8 @@ body::before {
   }
 
   .photo-back-copy p {
-    font-size: 0.78rem;
-    line-height: 1.16;
+    font-size: 0.98rem;
+    line-height: 1.1;
   }
 
   .memory-print::after {
@@ -737,8 +737,8 @@ body::before {
     width: 100%;
     margin: 0 0 0.3rem;
     break-inside: avoid;
-    font-size: 0.76rem;
-    line-height: 1.14;
+    font-size: 0.94rem;
+    line-height: 1.08;
   }
 
   .memory-print::after {
